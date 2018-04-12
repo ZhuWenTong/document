@@ -36,10 +36,9 @@
 | 扫描收货条码	| /find/storage						| store_uuid / wms_code | store_uuid / store_code / store_type / wms_code	|
 |			|									| store_type			| 													|
 |			|									|						|													|
-| 请求详情		| /takein/find/wmsBillList/details	| wms_uuid				| `data{}`											|
-|			|									|						| `billLists[{}]` / `qty{}`							|
+| 请求详情		| /takein/find/wmsBillList/details	| wms_uuid				| `billLists[{}]` / `qty{}`							|
 |			|									|						| `b: ` wms_no / wms_list_id / wms_list_no / qty	|
-|			|									|						| 	/ wms_stock_qty / unit / wms_list_info_string	|
+|			|									|						| / wms_stock_qty / unit / wms_list_info_string		|
 |			|									|						| `q: ` 											|
 |			|									|						|													|
 | 请求3个qty	| /takein/find/qty					| wms_uuid				| lpn_outter_qty / lpn_qty / idn_qty				|
